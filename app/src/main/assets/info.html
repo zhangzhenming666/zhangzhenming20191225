@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        /**
+         * 修改介绍
+         */
+        function changeInfo(val) {
+            document.getElementById("info").innerHTML = val
+        }
+
+        /**
+         * 分享
+         */
+        function share() {
+            android.share()
+        }
+    </script>
+</head>
+
+<body>
+    <h1>OPPO Reno3介绍</h1>
+
+
+    <p id="info">OPPO Reno3 Pro ,一体化双模5G,又快</br>又省电.7.7mm超轻薄机身,高通765G,为</br>用户带来更成熟的5G体验. </p>
+
+
+    <button onclick="share()" style="color: red;">立即分享</button>
+</body>
+
+</html>
